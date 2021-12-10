@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="85dfbd8b574e4c4891f39cc7a0f834fa" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="CabelDBS2Model.Address" Width="1.5" PointX="1.5" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.BuildType" Width="1.5" PointX="1.5" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Client" Width="1.5" PointX="1.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Contract" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.ContractService" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.ContractType" Width="1.5" PointX="1.5" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.District" Width="1.5" PointX="1.5" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Employee" Width="1.5" PointX="8" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.EmployeeEvent" Width="1.5" PointX="10.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Equipment" Width="1.5" PointX="1.5" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.EquipmentType" Width="1.5" PointX="1.5" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Event" Width="1.5" PointX="8" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Gender" Width="1.5" PointX="1.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.ProblemType" Width="1.5" PointX="3.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Rent" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Request" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.RequestStatus" Width="1.5" PointX="3.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Role" Width="1.5" PointX="5.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.Service" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.ServiceType" Width="1.5" PointX="3.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.ServiceVariation" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CabelDBS2Model.sysdiagrams" Width="1.5" PointX="8.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Address_District" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Client_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_District_BuildType" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Contract_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Contract_ContractType" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Contract_Equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_ContractService_Contract" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Rent_Contract" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_ContractService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Employee_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_EmployeeEvent_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_EmployeeEvent_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Equipment_EquipmentType" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Request_ProblemType" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Request_RequestStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Request_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Request_ServiceType" ManuallyRouted="false" />
+        <AssociationConnector Association="CabelDBS2Model.FK_Request_ServiceVariation" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
